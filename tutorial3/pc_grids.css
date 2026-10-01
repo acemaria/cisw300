@@ -1,23 +1,14 @@
 @charset "utf-8";
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
+   New Perspectives on HTML5 and CSS3, 8th Edition
    Tutorial 3
    Tutorial Case
    
    Style Sheet for Grids used in the Pandaisia Chocolates website
    Author: maria acevedo
-   Date:  9-28-2026 
+   Date: 10-01-26  
    
    Filename: pc_grids.css
-
-*/ 
-
-
-/* Grid Rows Styles */
-
-/* Grid Columns Styles */
-
-/* Grid Outline Styles */
 
 /* Heading Styles */
 h1 {
@@ -47,6 +38,8 @@ h2 {
 h3 {
    font-size: 1.1em;
 }
+
+
 /* Grid Styles for Page Body */
 
 body {
@@ -67,6 +60,7 @@ body > article {grid-area: intro;}
 body > aside {grid-area: faq;}
 body > section {grid-area: articles;}
 body > footer {grid-area: footer;}
+
 
 /* Grid Styles for Nested Grid */
 section { 
