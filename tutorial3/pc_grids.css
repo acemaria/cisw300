@@ -25,7 +25,8 @@ h1 {
 }
 
 h1{
-   font-size: 2.4em;
+   text-indent:1em;
+   font-size:2.4em;
    line-height: 2.4em;
    font-family: Champagne, cursive;
    letter-spacing: 0.3em;
