@@ -24,7 +24,7 @@ h1 {
    text-indent: 1em;
 }
 
-h1{
+h1 {
    text-indent:1em;
    font-size:2.4em;
    line-height: 2.4em;
@@ -59,9 +59,9 @@ body {
    grid-column-gap: 15px;
 }
 
-body> header {
-   grid-row: 1
-   grid-column: 1/-1
+body > header {
+   grid-row: 1;
+   grid-column: 1/-1;
 }
 body > article {grid-area: intro;}
 body > aside {grid-area: faq;}
