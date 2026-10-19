@@ -20,7 +20,10 @@
    Base Flex Styles
    ================
 */
-
+body {
+display: flex;
+flex-flow: row wrap;
+}
 
 
 
