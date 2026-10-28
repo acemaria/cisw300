@@ -22,9 +22,6 @@
    column-count: 2; 
    column-gap: 30px;
    column-rule: 2px solid gray;
-   section#main {
-      overflow-x: auto;
-   }
    
    widows: 3; 
    orphans: 3;
