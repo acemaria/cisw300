@@ -57,7 +57,7 @@ table.schedule tbody tr {
 
 /* Column Group Styles */
 col#firstCol {
-   background: rgb(218, 210, 218);
+   background: rgb(218, 0, 218);
    width:16%;
 }
 col.dayCols {
