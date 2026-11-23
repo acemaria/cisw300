@@ -22,7 +22,7 @@ function runClock() {
    var dateStr = currentDay.toLocaleDateString(); 
    var timeStr = currentDay.toLocaleTimeString();
 
-   /* Display the current day anf time */
+   /* Display the current day and time */
    document.getElementById("dateNow").innerHTML =
    dateStr + "br />" + timeStr;
 
