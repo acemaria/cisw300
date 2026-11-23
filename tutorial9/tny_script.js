@@ -18,7 +18,7 @@ setInterval("runClock()", 1000);
 function runClock() {
 
    /* Store the current date and time */ 
-   var currentDay = new Date("November 16,2021 16:28:49");
+   var currentDay = new Date("November 16,2026 16:28:49");
    var dateStr = currentDay.toLocaleDateString(); 
    var timeStr = currentDay.toLocaleTimeString();
 
