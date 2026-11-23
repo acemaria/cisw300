@@ -18,10 +18,13 @@ setInterval("runClock()", 1000);
 function runClock() {
 
    /* Store the current date and time */ 
-   var currentDay = var currentDay = new Date();
+   var currentDay = var currentDay = new Date("November 16,2026 16:28;49");
    var dateStr = currentDay.toLocaleDateString(); 
    var timeStr = currentDay.toLocaleTimeString();
 
+   /* Display the current day anf time */
+   document.getElementById("dateNow").innerHTML =
+   dateStr + "br />" + timeStr;
 
    /* Calculate the days until January 1st */ 
    var newYear = new Date("January 1, 2027"); 
