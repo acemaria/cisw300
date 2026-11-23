@@ -24,7 +24,7 @@ function runClock() {
 
    /* Display the current day and time */
    document.getElementById("dateNow").innerHTML =
-   dateStr + "br />" + timeStr;
+   dateStr + "<br />" + timeStr;
 
    /* Calculate the days until January 1st */ 
    var newYear = new Date("January 1, 2027"); 
